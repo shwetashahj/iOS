@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="speechRecognitionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="500_F_216021806_7VVnOZwaIBSo1rfjgpwvVzXY1bJfNnvK" translatesAutoresizingMaskIntoConstraints="NO" id="uwb-Ta-h1J">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap button to start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="av0-yR-QKq">
+                                <rect key="frame" x="5" y="164" width="404" height="17.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSQ-FD-PMW">
+                                <rect key="frame" x="177" y="191.5" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="2Ub-jr-lfd"/>
+                                    <constraint firstAttribute="height" constant="60" id="T1t-Wz-KaF"/>
+                                </constraints>
+                                <state key="normal" image="icons8-microphone-64"/>
+                                <connections>
+                                    <action selector="StartSpeaking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjV-CO-1gS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="drq-L2-sNP">
+                                <rect key="frame" x="20" y="280" width="374" height="461"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
+                            </textView>
+                            <button hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSL-8w-ui7">
+                                <rect key="frame" x="0.0" y="814" width="414" height="82"/>
+                                <color key="backgroundColor" red="0.64581455222994921" green="0.35974875558457614" blue="0.12940943165198929" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="Ld1-oo-cPc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Stop Recording">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yYL-r7-6LB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Speech Recognition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9Z-A2-sza">
+                                <rect key="frame" x="131" y="58" width="179" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uwb-Ta-h1J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0EH-ul-0OZ"/>
+                            <constraint firstAttribute="bottom" secondItem="iSL-8w-ui7" secondAttribute="bottom" id="1sM-YY-BaJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iSL-8w-ui7" secondAttribute="trailing" id="4ST-OG-fJF"/>
+                            <constraint firstAttribute="trailing" secondItem="uwb-Ta-h1J" secondAttribute="trailing" id="AH7-84-deA"/>
+                            <constraint firstItem="uwb-Ta-h1J" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GpL-GT-i0M"/>
+                            <constraint firstAttribute="bottom" secondItem="uwb-Ta-h1J" secondAttribute="bottom" id="TzZ-UQ-Lg1"/>
+                            <constraint firstItem="av0-yR-QKq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="ayc-BX-3AN"/>
+                            <constraint firstItem="RSQ-FD-PMW" firstAttribute="centerX" secondItem="av0-yR-QKq" secondAttribute="centerX" id="ck0-J9-sGC"/>
+                            <constraint firstItem="uwb-Ta-h1J" firstAttribute="leading" secondItem="RSQ-FD-PMW" secondAttribute="trailing" constant="-237" id="fgx-1m-voy"/>
+                            <constraint firstItem="av0-yR-QKq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="mq8-AB-pC8"/>
+                            <constraint firstItem="iSL-8w-ui7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nRJ-z7-vAj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="av0-yR-QKq" secondAttribute="trailing" constant="5" id="yGa-tm-i23"/>
+                            <constraint firstItem="RSQ-FD-PMW" firstAttribute="top" secondItem="av0-yR-QKq" secondAttribute="bottom" constant="10" id="z2S-5s-uXf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="speechTextView" destination="drq-L2-sNP" id="9ta-Fz-agd"/>
+                        <outlet property="startRecordingBtn" destination="RSQ-FD-PMW" id="JUQ-D7-HJ5"/>
+                        <outlet property="stopRecordingBtn" destination="iSL-8w-ui7" id="g5d-Ja-138"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66.666666666666671" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="500_F_216021806_7VVnOZwaIBSo1rfjgpwvVzXY1bJfNnvK" width="500" height="500"/>
+        <image name="icons8-microphone-64" width="64" height="64"/>
+    </resources>
+</document>

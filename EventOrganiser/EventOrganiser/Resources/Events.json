@@ -1,0 +1,105 @@
+{"data" :[{
+    "type": "SCHEDULED",
+    "title": "Meeting A",
+    "datetime": 1541059200000,
+    "location": "Navi Mumbai",
+    "status": 0,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+{
+    "type": "SCHEDULED",
+    "title": "Meeting B",
+    "datetime": 1541077200000,
+    "location": "Navi Mumbai",
+    "status": 1,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+{
+    "type": "SCHEDULED",
+    "title": "Meeting C",
+    "datetime": 1541084400000,
+    "location": "Navi Mumbai",
+    "status": 2,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+
+{
+    "type": "IMPORTED",
+    "title": "Google Cal A",
+    "datetime": 1541062800000
+},
+{
+    "type": "HOLIDAY",
+    "title": "Summer Bank Holiday",
+    "datetime": 1541149200000
+},
+{
+    "type": "SCHEDULED",
+    "title": "Meeting F",
+    "datetime": 1541257200000,
+    "location": "Navi Mumbai",
+    "status": 0,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+{
+    "type": "SCHEDULED",
+    "title": "Meeting Y",
+    "datetime": 1541260800000,
+    "location": "Navi Mumbai",
+    "status": 2,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+{
+    "type": "IMPORTED",
+    "title": "Google Cal F",
+    "datetime": 1541266200000
+},
+{
+    "type": "SCHEDULED",
+    "title": "Meeting A",
+    "datetime": 1541323800000,
+    "location": "Navi Mumbai",
+    "status": 0,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+{
+    "type": "SCHEDULED",
+    "title": "Meeting X",
+    "datetime": 1541331900000,
+    "location": "Navi Mumbai",
+    "status": 1,
+    "groupName": "Group 1",
+    "clientName": "Client 1"
+},
+{
+    "type": "IMPORTED",
+    "title": "Google Cal W",
+    "datetime": 1541336400000
+},
+{
+    "type": "IMPORTED",
+    "title": "Google Cal X",
+    "datetime": 1541340000000
+},
+{
+    "type": "IMPORTED",
+    "title": "Google Cal Z",
+    "datetime": 1541343600000
+},
+{
+    "type": "HOLIDAY",
+    "title": "Summer Bank Holiday 3",
+    "datetime": 1541408400000
+},
+{
+    "type": "HOLIDAY",
+    "title": "Summer Bank Holiday 4",
+    "datetime": 1541494800000
+}
+]}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>586225029510-jq8mg8ns98s8eco8clq704agldgt21ct.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.586225029510-jq8mg8ns98s8eco8clq704agldgt21ct</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>586225029510-kjr6vgndahiueivpo8nf0erqjo9njbi8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGY5mpSQ2YGiJk3vZnHLpkzMU6TlSd62o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>586225029510</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.agrahyah.HFTCafe</string>
+	<key>PROJECT_ID</key>
+	<string>hftcafe-46d0e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hftcafe-46d0e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:586225029510:ios:953c578e7ac80871</string>
+	<key>DATABASE_URL</key>
+	<string>https://hftcafe-46d0e.firebaseio.com</string>
+</dict>
+</plist>

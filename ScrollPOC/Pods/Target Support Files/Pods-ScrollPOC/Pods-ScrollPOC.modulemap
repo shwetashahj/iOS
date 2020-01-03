@@ -1,0 +1,6 @@
+framework module Pods_ScrollPOC {
+  umbrella header "Pods-ScrollPOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

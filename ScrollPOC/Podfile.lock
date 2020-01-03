@@ -1,0 +1,16 @@
+PODS:
+  - SwipeViewController (2.0)
+
+DEPENDENCIES:
+  - SwipeViewController
+
+SPEC REPOS:
+  trunk:
+    - SwipeViewController
+
+SPEC CHECKSUMS:
+  SwipeViewController: 87ac3b72473f2caee7b84a7761c9367501fd557a
+
+PODFILE CHECKSUM: d20f4cd4ab4f9e65491a6387c59dd58605c74521
+
+COCOAPODS: 1.8.4
